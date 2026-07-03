@@ -1,0 +1,2671 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AlertViewSDK",
+    "printedName": "AlertViewSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AlertViewSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertViewBridge",
+        "printedName": "AlertViewBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertViewBridge",
+                "printedName": "AlertViewSDK.AlertViewBridge",
+                "usr": "c:@M@AlertViewSDK@objc(cs)AlertViewBridge"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlertViewSDK0aB6BridgeC6sharedACvpZ",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC6sharedACvpZ",
+            "moduleName": "AlertViewSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertViewBridge",
+                    "printedName": "AlertViewSDK.AlertViewBridge",
+                    "usr": "c:@M@AlertViewSDK@objc(cs)AlertViewBridge"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlertViewSDK0aB6BridgeC6sharedACvgZ",
+                "mangledName": "$s12AlertViewSDK0aB6BridgeC6sharedACvgZ",
+                "moduleName": "AlertViewSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(baseUrl:apiKeyId:apiKey:bundleId:vehicleId:vehicleType:seats:weights:maxSnapMeters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC9configure7baseUrl8apiKeyId0hI006bundleJ007vehicleJ00L4Type5seats7weights13maxSnapMetersySS_S4SS2iS2dtF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC9configure7baseUrl8apiKeyId0hI006bundleJ007vehicleJ00L4Type5seats7weights13maxSnapMetersySS_S4SS2iS2dtF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSegmentUrl",
+            "printedName": "setSegmentUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC13setSegmentUrlyySSF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC13setSegmentUrlyySSF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setExtraHeaders",
+            "printedName": "setExtraHeaders(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC15setExtraHeadersySSSgSDyS2SGF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC15setExtraHeadersySSSgSDyS2SGF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setExtraBodyFields",
+            "printedName": "setExtraBodyFields(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC18setExtraBodyFieldsySSSgSDyS2SGF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC18setExtraBodyFieldsySSSgSDyS2SGF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRoute",
+            "printedName": "setRoute(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC8setRouteySbSSF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC8setRouteySbSSF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processGps",
+            "printedName": "processGps(lat:lng:bearing:speedMs:accuracy:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC10processGps3lat3lng7bearing7speedMs8accuracy9timestampySd_S4ds5Int64VtF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC10processGps3lat3lng7bearing7speedMs8accuracy9timestampySd_S4ds5Int64VtF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC5resetyyF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC5resetyyF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMutedVoiceTriggers",
+            "printedName": "setMutedVoiceTriggers(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC21setMutedVoiceTriggersyys6UInt64VF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC21setMutedVoiceTriggersyys6UInt64VF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "segmentCount",
+            "printedName": "segmentCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlertViewSDK0aB6BridgeC12segmentCountSivp",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC12segmentCountSivp",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlertViewSDK0aB6BridgeC12segmentCountSivg",
+                "mangledName": "$s12AlertViewSDK0aB6BridgeC12segmentCountSivg",
+                "moduleName": "AlertViewSDK",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentSegment",
+            "printedName": "currentSegment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlertViewSDK0aB6BridgeC14currentSegmentSivp",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC14currentSegmentSivp",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlertViewSDK0aB6BridgeC14currentSegmentSivg",
+                "mangledName": "$s12AlertViewSDK0aB6BridgeC14currentSegmentSivg",
+                "moduleName": "AlertViewSDK",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setBitmapCallback",
+            "printedName": "setBitmapCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC17setBitmapCallbackyyySo7UIImageCSg_SiAGSiAGSiAGSitcSgF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC17setBitmapCallbackyyySo7UIImageCSg_SiAGSiAGSiAGSitcSgF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVoiceCallback",
+            "printedName": "setVoiceCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.Data, Swift.Int, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Data, Swift.Int, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.Data, Swift.Int, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC16setVoiceCallbackyyy10Foundation4DataV_S2itcSgF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC16setVoiceCallbackyyy10Foundation4DataV_S2itcSgF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setResultCallback",
+            "printedName": "setResultCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.Int, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.Int, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.Int, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC17setResultCallbackyyySb_SiSStcSgF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC17setResultCallbackyyySb_SiSStcSgF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "audioPlayerDidFinishPlaying",
+            "printedName": "audioPlayerDidFinishPlaying(_:successfully:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioPlayer",
+                "printedName": "AVFAudio.AVAudioPlayer",
+                "usr": "c:objc(cs)AVAudioPlayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AlertViewSDK@objc(cs)AlertViewBridge(im)audioPlayerDidFinishPlaying:successfully:",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC27audioPlayerDidFinishPlaying_12successfullyySo07AVAudioF0C_SbtF",
+            "moduleName": "AlertViewSDK",
+            "objc_name": "audioPlayerDidFinishPlaying:successfully:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "audioPlayerDecodeErrorDidOccur",
+            "printedName": "audioPlayerDecodeErrorDidOccur(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioPlayer",
+                "printedName": "AVFAudio.AVAudioPlayer",
+                "usr": "c:objc(cs)AVAudioPlayer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AlertViewSDK@objc(cs)AlertViewBridge(im)audioPlayerDecodeErrorDidOccur:error:",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC30audioPlayerDecodeErrorDidOccur_5errorySo07AVAudioF0C_s0H0_pSgtF",
+            "moduleName": "AlertViewSDK",
+            "objc_name": "audioPlayerDecodeErrorDidOccur:error:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AlertViewSDK@objc(cs)AlertViewBridge",
+        "mangledName": "$s12AlertViewSDK0aB6BridgeC",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertViewManager",
+        "printedName": "AlertViewManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertViewManager",
+                "printedName": "AlertViewSDK.AlertViewManager",
+                "usr": "s:12AlertViewSDK0aB7ManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AlertViewSDK0aB7ManagerCACycfc",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerCACycfc",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(baseUrl:apiKeyId:apiKey:bundleId:vehicleId:vehicleType:seats:weights:maxSnapMeters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC9configure7baseUrl8apiKeyId0hI006bundleJ007vehicleJ00L4Type5seats7weights13maxSnapMetersySS_S4SS2iS2dtF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC9configure7baseUrl8apiKeyId0hI006bundleJ007vehicleJ00L4Type5seats7weights13maxSnapMetersySS_S4SS2iS2dtF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSegmentUrl",
+            "printedName": "setSegmentUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC13setSegmentUrlyySSF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC13setSegmentUrlyySSF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setExtraHeaders",
+            "printedName": "setExtraHeaders(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC15setExtraHeadersySSSgSDyS2SGF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC15setExtraHeadersySSSgSDyS2SGF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setExtraBodyFields",
+            "printedName": "setExtraBodyFields(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC18setExtraBodyFieldsySSSgSDyS2SGF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC18setExtraBodyFieldsySSSgSDyS2SGF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC5startyySSF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC5startyySSF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLocation",
+            "printedName": "onLocation(lat:lng:bearing:speedKmh:accuracy:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC10onLocation3lat3lng7bearing8speedKmh8accuracyySd_S4dtF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC10onLocation3lat3lng7bearing8speedKmh8accuracyySd_S4dtF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC5resetyyF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC5resetyyF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMutedAlertTypes",
+            "printedName": "setMutedAlertTypes(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<AlertViewSDK.VoiceAlertType>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC08setMutedA5TypesyyShyAA05VoiceA4TypeOGF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC08setMutedA5TypesyyShyAA05VoiceA4TypeOGF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMutedAlertTypes",
+            "printedName": "setMutedAlertTypes(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AlertViewSDK.VoiceAlertType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC08setMutedA5TypesyyAA05VoiceA4TypeOd_tF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC08setMutedA5TypesyyAA05VoiceA4TypeOd_tF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBitmapCallback",
+            "printedName": "setBitmapCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC17setBitmapCallbackyyySo7UIImageCSg_SiAGSiAGSiAGSitcSgF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC17setBitmapCallbackyyySo7UIImageCSg_SiAGSiAGSiAGSitcSgF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVoiceCallback",
+            "printedName": "setVoiceCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.Data, Swift.Int, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.Data, Swift.Int, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.Data, Swift.Int, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC16setVoiceCallbackyyy10Foundation4DataV_S2itcSgF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC16setVoiceCallbackyyy10Foundation4DataV_S2itcSgF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setResultCallback",
+            "printedName": "setResultCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool, Swift.Int, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.Int, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Bool, Swift.Int, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC17setResultCallbackyyySb_SiSStcSgF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC17setResultCallbackyyySb_SiSStcSgF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AlertViewSDK0aB7ManagerC",
+        "mangledName": "$s12AlertViewSDK0aB7ManagerC",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VoiceAlertType",
+        "printedName": "VoiceAlertType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "speedCamera",
+            "printedName": "speedCamera",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO11speedCamerayA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO11speedCamerayA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "toll",
+            "printedName": "toll",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO4tollyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO4tollyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "trafficEnforcementCamera",
+            "printedName": "trafficEnforcementCamera",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO24trafficEnforcementCamerayA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO24trafficEnforcementCamerayA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "redLightCamera",
+            "printedName": "redLightCamera",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO14redLightCamerayA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO14redLightCamerayA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "aiCamera",
+            "printedName": "aiCamera",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO8aiCamerayA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO8aiCamerayA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noLeftTurn",
+            "printedName": "noLeftTurn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO10noLeftTurnyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO10noLeftTurnyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noRightTurn",
+            "printedName": "noRightTurn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO11noRightTurnyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO11noRightTurnyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noUTurn",
+            "printedName": "noUTurn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO7noUTurnyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO7noUTurnyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noOvertaking",
+            "printedName": "noOvertaking",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO12noOvertakingyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO12noOvertakingyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noOvertakingEnd",
+            "printedName": "noOvertakingEnd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO15noOvertakingEndyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO15noOvertakingEndyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noParking",
+            "printedName": "noParking",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO9noParkingyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO9noParkingyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noStraight",
+            "printedName": "noStraight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO10noStraightyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO10noStraightyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "buildupAreaStart",
+            "printedName": "buildupAreaStart",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO16buildupAreaStartyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO16buildupAreaStartyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "buildupAreaEnd",
+            "printedName": "buildupAreaEnd",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO14buildupAreaEndyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO14buildupAreaEndyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "restStation",
+            "printedName": "restStation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO11restStationyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO11restStationyA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "triggerValue",
+            "printedName": "triggerValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO12triggerValueSivp",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO12triggerValueSivp",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlertViewSDK05VoiceA4TypeO12triggerValueSivg",
+                "mangledName": "$s12AlertViewSDK05VoiceA4TypeO12triggerValueSivg",
+                "moduleName": "AlertViewSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "toMask",
+            "printedName": "toMask(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt64",
+                "printedName": "Swift.UInt64",
+                "usr": "s:s6UInt64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO6toMaskys6UInt64VxSTRzAC7ElementRtzlFZ",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO6toMaskys6UInt64VxSTRzAC7ElementRtzlFZ",
+            "moduleName": "AlertViewSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Sequence, τ_0_0.Element == AlertViewSDK.VoiceAlertType>",
+            "sugared_genericSig": "<S where S : Swift.Sequence, S.Element == AlertViewSDK.VoiceAlertType>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AlertViewSDK.VoiceAlertType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO8rawValueACSgSi_tcfc",
+            "moduleName": "AlertViewSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO8rawValueSivp",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO8rawValueSivp",
+            "moduleName": "AlertViewSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlertViewSDK05VoiceA4TypeO8rawValueSivg",
+                "mangledName": "$s12AlertViewSDK05VoiceA4TypeO8rawValueSivg",
+                "moduleName": "AlertViewSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AlertViewSDK.VoiceAlertType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO8allCasesSayACGvpZ",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO8allCasesSayACGvpZ",
+            "moduleName": "AlertViewSDK",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AlertViewSDK.VoiceAlertType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlertViewSDK05VoiceA4TypeO8allCasesSayACGvgZ",
+                "mangledName": "$s12AlertViewSDK05VoiceA4TypeO8allCasesSayACGvgZ",
+                "moduleName": "AlertViewSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12AlertViewSDK05VoiceA4TypeO",
+        "mangledName": "$s12AlertViewSDK05VoiceA4TypeO",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AlertViewSDK.VoiceAlertType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9814,
+      "length": 4,
+      "value": "6000"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9853,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
+      "kind": "Array",
+      "offset": 9991,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10025,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1359,
+      "length": 29,
+      "value": "\"vn.vietmap.alertview.engine\""
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 594,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 612,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 650,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 678,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 700,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 724,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 749,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 771,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 798,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 828,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 852,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 877,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 908,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 937,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 963,
+      "length": 2,
+      "value": "18"
+    }
+  ]
+}
