@@ -970,18 +970,12 @@
           {
             "kind": "Function",
             "name": "configure",
-            "printedName": "configure(baseUrl:apiKeyId:apiKey:bundleId:vehicleId:vehicleType:seats:weights:maxSnapMeters:)",
+            "printedName": "configure(baseUrl:apiKeyId:apiKey:vehicleId:vehicleType:seats:weights:maxSnapMeters:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -1033,8 +1027,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12AlertViewSDK0aB7ManagerC9configure7baseUrl8apiKeyId0hI006bundleJ007vehicleJ00L4Type5seats7weights13maxSnapMetersySS_S4SS2iS2dtF",
-            "mangledName": "$s12AlertViewSDK0aB7ManagerC9configure7baseUrl8apiKeyId0hI006bundleJ007vehicleJ00L4Type5seats7weights13maxSnapMetersySS_S4SS2iS2dtF",
+            "usr": "s:12AlertViewSDK0aB7ManagerC9configure7baseUrl8apiKeyId0hI007vehicleJ00K4Type5seats7weights13maxSnapMetersySS_S3SS2iS2dtF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC9configure7baseUrl8apiKeyId0hI007vehicleJ00K4Type5seats7weights13maxSnapMetersySS_S3SS2iS2dtF",
             "moduleName": "AlertViewSDK",
             "declAttributes": [
               "Final",
