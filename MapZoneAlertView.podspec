@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "MapZone" => "support@mapzone.vn" }
 
-  s.platform              = :ios, "12.0"
-  s.ios.deployment_target = "12.0"
+  s.platform              = :ios, "13.0"
+  s.ios.deployment_target = "13.0"
   s.swift_version         = "5.0"
 
   s.source        = { :git => "https://github.com/mapzone-global/mapzone-alert-view-ios.git", :tag => "ios-#{s.version}" }
 
-  s.vendored_frameworks = "MapZoneAlertView.xcframework"
+  s.vendored_frameworks = "AlertViewSDK.xcframework"
   s.frameworks    = "Foundation", "AVFoundation"
   s.libraries     = "c++"
   s.pod_target_xcconfig = { "EXCLUDED_ARCHS[sdk=iphonesimulator*]" => "i386" }
