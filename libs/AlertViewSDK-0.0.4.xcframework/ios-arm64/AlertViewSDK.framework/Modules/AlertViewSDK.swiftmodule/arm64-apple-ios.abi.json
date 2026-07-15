@@ -510,56 +510,6 @@
           },
           {
             "kind": "Function",
-            "name": "exportLogs",
-            "printedName": "exportLogs(toFile:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AlertViewSDK0aB6BridgeC10exportLogs6toFileSiSS_tF",
-            "mangledName": "$s12AlertViewSDK0aB6BridgeC10exportLogs6toFileSiSS_tF",
-            "moduleName": "AlertViewSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "canExportLogs",
-            "printedName": "canExportLogs()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AlertViewSDK0aB6BridgeC13canExportLogsSbyF",
-            "mangledName": "$s12AlertViewSDK0aB6BridgeC13canExportLogsSbyF",
-            "moduleName": "AlertViewSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setBitmapCallback",
             "printedName": "setBitmapCallback(_:)",
             "children": [
@@ -812,66 +762,6 @@
             "declKind": "Func",
             "usr": "s:12AlertViewSDK0aB6BridgeC17setResultCallbackyyySb_SiSStcSgF",
             "mangledName": "$s12AlertViewSDK0aB6BridgeC17setResultCallbackyyySb_SiSStcSgF",
-            "moduleName": "AlertViewSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setRerouteCallback",
-            "printedName": "setRerouteCallback(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.Double, Swift.Double) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Double, Swift.Double) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(Swift.Double, Swift.Double)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Double",
-                            "printedName": "Swift.Double",
-                            "usr": "s:Sd"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Double",
-                            "printedName": "Swift.Double",
-                            "usr": "s:Sd"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AlertViewSDK0aB6BridgeC18setRerouteCallbackyyySd_SdtcSgF",
-            "mangledName": "$s12AlertViewSDK0aB6BridgeC18setRerouteCallbackyyySd_SdtcSgF",
             "moduleName": "AlertViewSDK",
             "declAttributes": [
               "Final",
@@ -1383,56 +1273,6 @@
           },
           {
             "kind": "Function",
-            "name": "canExportLogs",
-            "printedName": "canExportLogs()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AlertViewSDK0aB7ManagerC13canExportLogsSbyF",
-            "mangledName": "$s12AlertViewSDK0aB7ManagerC13canExportLogsSbyF",
-            "moduleName": "AlertViewSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "exportLogs",
-            "printedName": "exportLogs(toFile:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AlertViewSDK0aB7ManagerC10exportLogs6toFileSiSS_tF",
-            "mangledName": "$s12AlertViewSDK0aB7ManagerC10exportLogs6toFileSiSS_tF",
-            "moduleName": "AlertViewSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setMutedAlertTypes",
             "printedName": "setMutedAlertTypes(_:)",
             "children": [
@@ -1758,67 +1598,6 @@
             "declKind": "Func",
             "usr": "s:12AlertViewSDK0aB7ManagerC17setResultCallbackyyySb_SiSStcSgF",
             "mangledName": "$s12AlertViewSDK0aB7ManagerC17setResultCallbackyyySb_SiSStcSgF",
-            "moduleName": "AlertViewSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setRerouteCallback",
-            "printedName": "setRerouteCallback(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.Double, Swift.Double) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.Double, Swift.Double) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(Swift.Double, Swift.Double)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Double",
-                            "printedName": "Swift.Double",
-                            "usr": "s:Sd"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Double",
-                            "printedName": "Swift.Double",
-                            "usr": "s:Sd"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AlertViewSDK0aB7ManagerC18setRerouteCallbackyyySd_SdtcSgF",
-            "mangledName": "$s12AlertViewSDK0aB7ManagerC18setRerouteCallbackyyySd_SdtcSgF",
             "moduleName": "AlertViewSDK",
             "declAttributes": [
               "Final",
@@ -2745,28 +2524,28 @@
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 10341,
+      "offset": 9814,
       "length": 4,
       "value": "6000"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 10380,
+      "offset": 9853,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "Array",
-      "offset": 10518,
+      "offset": 9991,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 10552,
+      "offset": 10025,
       "length": 5,
       "value": "false"
     },

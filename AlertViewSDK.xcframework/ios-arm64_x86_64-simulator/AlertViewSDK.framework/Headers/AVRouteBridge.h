@@ -51,6 +51,11 @@ typedef void (^AVDebugBlock)(double rawLat, double rawLng,
 /// <0 local SDK error (see message for detail).
 typedef void (^AVResultBlock)(BOOL success, int errorCode, NSString *message);
 
+/// Route lost and could not be re-acquired from the current GPS (a genuine
+/// detour). The host should compute a fresh route from (lat,lng) and set it
+/// again. Fired at most once per drift episode.
+typedef void (^AVRerouteBlock)(double lat, double lng);
+
 // Exported explicitly: Release hides symbols by default; this class is the
 // public ObjC surface and must stay linkable from host apps.
 __attribute__((visibility("default")))
@@ -117,11 +122,15 @@ __attribute__((visibility("default")))
 - (int)segmentCount;
 - (int)currentSegment;
 
+- (int)exportLogs:(NSString *)path;
+- (BOOL)canExportLogs;
+
 // ---- Callbacks ----
 - (void)setBitmapBlock:(nullable AVBitmapBlock)block;
 - (void)setVoiceBlock:(nullable AVVoiceBlock)block;
 - (void)setDebugBlock:(nullable AVDebugBlock)block;
 - (void)setResultBlock:(nullable AVResultBlock)block;
+- (void)setRerouteBlock:(nullable AVRerouteBlock)block;
 
 @end
 

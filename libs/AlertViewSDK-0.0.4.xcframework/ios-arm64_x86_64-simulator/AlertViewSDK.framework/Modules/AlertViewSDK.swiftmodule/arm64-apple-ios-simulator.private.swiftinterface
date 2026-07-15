@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AlertViewSDK
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AlertViewSDK
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 @_exported import AlertViewSDK
@@ -33,8 +33,6 @@ import _SwiftConcurrencyShims
   final public var currentSegment: Swift.Int {
     get
   }
-  final public func exportLogs(toFile path: Swift.String) -> Swift.Int
-  final public func canExportLogs() -> Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
   final public func setBitmapCallback(_ cb: AlertViewSDK.BitmapCallback?)
   #endif
@@ -43,9 +41,6 @@ import _SwiftConcurrencyShims
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   final public func setResultCallback(_ cb: AlertViewSDK.ResultCallback?)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public func setRerouteCallback(_ cb: AlertViewSDK.RerouteCallback?)
   #endif
   @objc deinit
 }
@@ -70,8 +65,6 @@ final public class AlertViewManager {
   final public func start(_ routePolyline: Swift.String)
   final public func onLocation(lat: Swift.Double, lng: Swift.Double, bearing: Swift.Double, speedKmh: Swift.Double, accuracy: Swift.Double)
   final public func reset()
-  final public func canExportLogs() -> Swift.Bool
-  final public func exportLogs(toFile path: Swift.String) -> Swift.Int
   final public func setMutedAlertTypes(_ muted: Swift.Set<AlertViewSDK.VoiceAlertType>)
   final public func setMutedAlertTypes(_ muted: AlertViewSDK.VoiceAlertType...)
   #if compiler(>=5.3) && $NonescapableTypes
@@ -83,15 +76,11 @@ final public class AlertViewManager {
   #if compiler(>=5.3) && $NonescapableTypes
   final public func setResultCallback(_ cb: AlertViewSDK.ResultCallback?)
   #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public func setRerouteCallback(_ cb: AlertViewSDK.RerouteCallback?)
-  #endif
   @objc deinit
 }
 public typealias BitmapCallback = (_ current: UIKit.UIImage?, _ speedStatus: Swift.Int, _ next: UIKit.UIImage?, _ nextDistMeters: Swift.Int, _ camera: UIKit.UIImage?, _ cameraDistMeters: Swift.Int, _ toll: UIKit.UIImage?, _ tollDistMeters: Swift.Int) -> Swift.Void
 public typealias VoiceCallback = (_ wav: Foundation.Data, _ trigger: Swift.Int, _ priority: Swift.Int) -> Swift.Void
 public typealias ResultCallback = (_ success: Swift.Bool, _ errorCode: Swift.Int, _ message: Swift.String) -> Swift.Void
-public typealias RerouteCallback = (_ lat: Swift.Double, _ lng: Swift.Double) -> Swift.Void
 public enum VoiceAlertType : Swift.Int, Swift.CaseIterable {
   case speedCamera
   case toll
