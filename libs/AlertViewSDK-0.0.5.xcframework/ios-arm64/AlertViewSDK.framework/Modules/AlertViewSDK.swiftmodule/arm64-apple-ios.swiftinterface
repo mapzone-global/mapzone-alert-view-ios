@@ -1,0 +1,129 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AlertViewSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AVFoundation
+@_exported import AlertViewSDK
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class AlertViewBridge : ObjectiveC.NSObject {
+  public static let shared: AlertViewSDK.AlertViewBridge
+  final public func configure(baseUrl: Swift.String, apiKeyId: Swift.String, apiKey: Swift.String, bundleId: Swift.String, vehicleId: Swift.String, vehicleType: Swift.Int, seats: Swift.Int, weights: Swift.Double, maxSnapMeters: Swift.Double)
+  final public func setSegmentUrl(_ url: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @discardableResult
+  final public func setExtraHeaders(_ headers: [Swift.String : Swift.String]) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @discardableResult
+  final public func setExtraBodyFields(_ fields: [Swift.String : Swift.String]) -> Swift.String?
+  #endif
+  @discardableResult
+  final public func setRoute(_ routePolyline: Swift.String) -> Swift.Bool
+  final public func processGps(lat: Swift.Double, lng: Swift.Double, bearing: Swift.Double, speedMs: Swift.Double, accuracy: Swift.Double, timestamp: Swift.Int64)
+  final public func reset()
+  final public func setMutedVoiceTriggers(_ mask: Swift.UInt64)
+  final public var segmentCount: Swift.Int {
+    get
+  }
+  final public var currentSegment: Swift.Int {
+    get
+  }
+  final public func exportLogs(toFile path: Swift.String) -> Swift.Int
+  final public func canExportLogs() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setBitmapCallback(_ cb: AlertViewSDK.BitmapCallback?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setVoiceCallback(_ cb: AlertViewSDK.VoiceCallback?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setResultCallback(_ cb: AlertViewSDK.ResultCallback?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRerouteCallback(_ cb: AlertViewSDK.RerouteCallback?)
+  #endif
+  @objc deinit
+}
+extension AlertViewSDK.AlertViewBridge : AVFAudio.AVAudioPlayerDelegate {
+  @objc final public func audioPlayerDidFinishPlaying(_ player: AVFAudio.AVAudioPlayer, successfully flag: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func audioPlayerDecodeErrorDidOccur(_ player: AVFAudio.AVAudioPlayer, error: (any Swift.Error)?)
+  #endif
+}
+final public class AlertViewManager {
+  public init()
+  final public func configure(baseUrl: Swift.String, apiKeyId: Swift.String, apiKey: Swift.String, vehicleId: Swift.String, vehicleType: Swift.Int, seats: Swift.Int, weights: Swift.Double, maxSnapMeters: Swift.Double)
+  final public func setSegmentUrl(_ url: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @discardableResult
+  final public func setExtraHeaders(_ headers: [Swift.String : Swift.String]) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @discardableResult
+  final public func setExtraBodyFields(_ fields: [Swift.String : Swift.String]) -> Swift.String?
+  #endif
+  final public func start(_ routePolyline: Swift.String)
+  final public func onLocation(lat: Swift.Double, lng: Swift.Double, bearing: Swift.Double, speedKmh: Swift.Double, accuracy: Swift.Double)
+  final public func reset()
+  final public func canExportLogs() -> Swift.Bool
+  final public func exportLogs(toFile path: Swift.String) -> Swift.Int
+  final public func setMutedAlertTypes(_ muted: Swift.Set<AlertViewSDK.VoiceAlertType>)
+  final public func setMutedAlertTypes(_ muted: AlertViewSDK.VoiceAlertType...)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setBitmapCallback(_ cb: AlertViewSDK.BitmapCallback?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setVoiceCallback(_ cb: AlertViewSDK.VoiceCallback?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setResultCallback(_ cb: AlertViewSDK.ResultCallback?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRerouteCallback(_ cb: AlertViewSDK.RerouteCallback?)
+  #endif
+  @objc deinit
+}
+public typealias BitmapCallback = (_ current: UIKit.UIImage?, _ speedStatus: Swift.Int, _ next: UIKit.UIImage?, _ nextDistMeters: Swift.Int, _ camera: UIKit.UIImage?, _ cameraDistMeters: Swift.Int, _ toll: UIKit.UIImage?, _ tollDistMeters: Swift.Int) -> Swift.Void
+public typealias VoiceCallback = (_ wav: Foundation.Data, _ trigger: Swift.Int, _ priority: Swift.Int) -> Swift.Void
+public typealias ResultCallback = (_ success: Swift.Bool, _ errorCode: Swift.Int, _ message: Swift.String) -> Swift.Void
+public typealias RerouteCallback = (_ lat: Swift.Double, _ lng: Swift.Double) -> Swift.Void
+public enum VoiceAlertType : Swift.Int, Swift.CaseIterable {
+  case speedCamera
+  case toll
+  case trafficEnforcementCamera
+  case redLightCamera
+  case aiCamera
+  case noLeftTurn
+  case noRightTurn
+  case noUTurn
+  case noOvertaking
+  case noOvertakingEnd
+  case noParking
+  case noStraight
+  case buildupAreaStart
+  case buildupAreaEnd
+  case restStation
+  public var triggerValue: Swift.Int {
+    get
+  }
+  public static func toMask<S>(_ muted: S) -> Swift.UInt64 where S : Swift.Sequence, S.Element == AlertViewSDK.VoiceAlertType
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias AllCases = [AlertViewSDK.VoiceAlertType]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [AlertViewSDK.VoiceAlertType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension AlertViewSDK.VoiceAlertType : Swift.Equatable {}
+extension AlertViewSDK.VoiceAlertType : Swift.Hashable {}
+extension AlertViewSDK.VoiceAlertType : Swift.RawRepresentable {}
