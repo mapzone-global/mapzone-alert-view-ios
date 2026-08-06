@@ -1310,7 +1310,7 @@
           {
             "kind": "Function",
             "name": "onLocation",
-            "printedName": "onLocation(lat:lng:bearing:speedKmh:accuracy:)",
+            "printedName": "onLocation(lat:lng:bearing:speedKmh:accuracy:fixTimeMillis:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1346,11 +1346,17 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12AlertViewSDK0aB7ManagerC10onLocation3lat3lng7bearing8speedKmh8accuracyySd_S4dtF",
-            "mangledName": "$s12AlertViewSDK0aB7ManagerC10onLocation3lat3lng7bearing8speedKmh8accuracyySd_S4dtF",
+            "usr": "s:12AlertViewSDK0aB7ManagerC10onLocation3lat3lng7bearing8speedKmh8accuracy13fixTimeMillisySd_S4ds5Int64VtF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC10onLocation3lat3lng7bearing8speedKmh8accuracy13fixTimeMillisySd_S4ds5Int64VtF",
             "moduleName": "AlertViewSDK",
             "declAttributes": [
               "Final",
@@ -2773,7 +2779,7 @@
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewManager.swift",
       "kind": "StringLiteral",
-      "offset": 1359,
+      "offset": 1943,
       "length": 29,
       "value": "\"vn.vietmap.alertview.engine\""
     },

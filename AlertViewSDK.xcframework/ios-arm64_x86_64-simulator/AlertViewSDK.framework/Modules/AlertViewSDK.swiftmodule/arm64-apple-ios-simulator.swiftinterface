@@ -68,7 +68,7 @@ final public class AlertViewManager {
   final public func setExtraBodyFields(_ fields: [Swift.String : Swift.String]) -> Swift.String?
   #endif
   final public func start(_ routePolyline: Swift.String)
-  final public func onLocation(lat: Swift.Double, lng: Swift.Double, bearing: Swift.Double, speedKmh: Swift.Double, accuracy: Swift.Double)
+  final public func onLocation(lat: Swift.Double, lng: Swift.Double, bearing: Swift.Double, speedKmh: Swift.Double, accuracy: Swift.Double, fixTimeMillis: Swift.Int64)
   final public func reset()
   final public func canExportLogs() -> Swift.Bool
   final public func exportLogs(toFile path: Swift.String) -> Swift.Int
