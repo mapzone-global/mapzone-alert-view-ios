@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "MapZoneAlertView"
-  s.version       = "1.0.0"
+  s.version       = "1.0.1"
   s.summary       = "MapZone Alert View SDK – real-time speed alert for iOS."
   s.description   = <<-DESC
     MapZoneAlertViewSDK provides speed alert functionality with a

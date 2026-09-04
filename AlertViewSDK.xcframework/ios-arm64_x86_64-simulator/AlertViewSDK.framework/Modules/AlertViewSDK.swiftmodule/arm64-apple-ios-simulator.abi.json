@@ -689,6 +689,160 @@
           },
           {
             "kind": "Function",
+            "name": "setRestrictionCallback",
+            "printedName": "setRestrictionCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC22setRestrictionCallbackyyySo7UIImageCSg_SiAGSiAGSiAGSiSbAGSitcSgF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC22setRestrictionCallbackyyySo7UIImageCSg_SiAGSiAGSiAGSiSbAGSitcSgF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setVoiceCallback",
             "printedName": "setVoiceCallback(_:)",
             "children": [
@@ -1640,6 +1794,161 @@
           },
           {
             "kind": "Function",
+            "name": "setRestrictionCallback",
+            "printedName": "setRestrictionCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, UIKit.UIImage?, Swift.Int, Swift.Bool, UIKit.UIImage?, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIImage?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC22setRestrictionCallbackyyySo7UIImageCSg_SiAGSiAGSiAGSiSbAGSitcSgF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC22setRestrictionCallbackyyySo7UIImageCSg_SiAGSiAGSiAGSiSbAGSitcSgF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setVoiceCallback",
             "printedName": "setVoiceCallback(_:)",
             "children": [
@@ -2451,6 +2760,126 @@
           },
           {
             "kind": "Var",
+            "name": "noStopping",
+            "printedName": "noStopping",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO10noStoppingyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO10noStoppingyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "roadClosed",
+            "printedName": "roadClosed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO10roadClosedyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO10roadClosedyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vehicleRestricted",
+            "printedName": "vehicleRestricted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceAlertType.Type) -> AlertViewSDK.VoiceAlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceAlertType",
+                    "printedName": "AlertViewSDK.VoiceAlertType",
+                    "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceAlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceAlertType",
+                        "printedName": "AlertViewSDK.VoiceAlertType",
+                        "usr": "s:12AlertViewSDK05VoiceA4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK05VoiceA4TypeO17vehicleRestrictedyA2CmF",
+            "mangledName": "$s12AlertViewSDK05VoiceA4TypeO17vehicleRestrictedyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "triggerValue",
             "printedName": "triggerValue",
             "children": [
@@ -2751,28 +3180,35 @@
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 10341,
+      "offset": 11466,
       "length": 4,
       "value": "6000"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 10380,
+      "offset": 11505,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11587,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "Array",
-      "offset": 10518,
+      "offset": 11889,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 10552,
+      "offset": 11923,
       "length": 5,
       "value": "false"
     },
@@ -2786,107 +3222,128 @@
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 594,
+      "offset": 982,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 612,
+      "offset": 1000,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 650,
+      "offset": 1038,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 678,
+      "offset": 1066,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 700,
+      "offset": 1088,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 724,
+      "offset": 1112,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 749,
+      "offset": 1137,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 771,
+      "offset": 1159,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 798,
+      "offset": 1186,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 828,
+      "offset": 1216,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 852,
+      "offset": 1240,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 877,
+      "offset": 1265,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 908,
+      "offset": 1296,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 937,
+      "offset": 1325,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
       "kind": "IntegerLiteral",
-      "offset": 963,
+      "offset": 1351,
       "length": 2,
       "value": "18"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1468,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1525,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceAlertType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1652,
+      "length": 2,
+      "value": "21"
     }
   ]
 }

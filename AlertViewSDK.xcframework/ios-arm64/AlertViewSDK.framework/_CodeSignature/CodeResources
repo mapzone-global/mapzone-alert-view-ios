@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AVRouteBridge.h</key>
 		<data>
-		OSZu5Jf9E5wICZ8ws2Vf2lMx2E8=
+		YZEZzu5grV7zOL2HsmHLtKvW0P8=
 		</data>
 		<key>Headers/AlertViewSDK.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rVaqcWrxr3EIMEHyTBwpYfU00kQ=
+		Kwsx0h/A6S/jtNyXkKs9kYot9Ws=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		TRTQ98OSTfFGi8Y315X5YmKPvKk=
+		IBL2AAxawnfonsSfRPgNhX1cbPc=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		z/8o9MEzvXXpAwDtqMXc+O6Vl8A=
+		Ab077B9yXytobx7TkYtF5eM25as=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		uCv03G8YSIHd7T4KARm9WNoNSYU=
+		Qe8JMmrVqrVuyAOgiU2QLsA1/1g=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		z/8o9MEzvXXpAwDtqMXc+O6Vl8A=
+		Ab077B9yXytobx7TkYtF5eM25as=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		UwFlQJoDjVSyIl6ZxhFUp+7W+hc=
+		+eluVmcuKkKkvyqjVPsK0Bq2O7U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5jFK/V3XIJPtRapuIPtsjPZZWJauLPCPYwwmZc8jJjU=
+			d2tLrqHfB3OgjaOUCdDHWpuGmXfyjIqTt0OMW8RUzis=
 			</data>
 		</dict>
 		<key>Headers/AlertViewSDK.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CBbkhqcqAnWdc0zCJkC3qcFIbMawOEhLGtL69Ud66PU=
+			X3qUwbKIL6mAlnceiaZNj1sNZrc5mpwN6sCKDq/TsWM=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vybrMOpU4ffvhnjMk+Kr/+JRe+aha/CTkQikX9+e/n8=
+			snFJic8WwZszRKGOGL8/WO0QncwEXs9f0TeZtYV8t4Y=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KMXfBJAsnLH8HRzirG7D2JJDf57r7b4y56hU5vWqeyU=
+			rhOQ8CP8Mhmy2DO2AvwIbx9H8K08cFTh/QxU0S/wk40=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vybrMOpU4ffvhnjMk+Kr/+JRe+aha/CTkQikX9+e/n8=
+			snFJic8WwZszRKGOGL8/WO0QncwEXs9f0TeZtYV8t4Y=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4x05Tl5Xp5SrxUIHRGPwmpV10glVRCZrux7Op+t7UEw=
+			T6PVyAHFj0DsDVntKlRCDt1LD6xj72KaWBCy4YWXp5c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

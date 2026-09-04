@@ -39,6 +39,9 @@ import _SwiftConcurrencyShims
   final public func setBitmapCallback(_ cb: AlertViewSDK.BitmapCallback?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRestrictionCallback(_ cb: AlertViewSDK.RestrictionCallback?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func setVoiceCallback(_ cb: AlertViewSDK.VoiceCallback?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
@@ -78,6 +81,9 @@ final public class AlertViewManager {
   final public func setBitmapCallback(_ cb: AlertViewSDK.BitmapCallback?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
+  final public func setRestrictionCallback(_ cb: AlertViewSDK.RestrictionCallback?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func setVoiceCallback(_ cb: AlertViewSDK.VoiceCallback?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
@@ -89,6 +95,7 @@ final public class AlertViewManager {
   @objc deinit
 }
 public typealias BitmapCallback = (_ current: UIKit.UIImage?, _ speedStatus: Swift.Int, _ next: UIKit.UIImage?, _ nextDistMeters: Swift.Int, _ camera: UIKit.UIImage?, _ cameraDistMeters: Swift.Int, _ toll: UIKit.UIImage?, _ tollDistMeters: Swift.Int) -> Swift.Void
+public typealias RestrictionCallback = (_ stop: UIKit.UIImage?, _ stopDistMeters: Swift.Int, _ closed: UIKit.UIImage?, _ closedDistMeters: Swift.Int, _ vehicle: UIKit.UIImage?, _ vehicleDistMeters: Swift.Int, _ bua: UIKit.UIImage?, _ buaDistMeters: Swift.Int, _ inBua: Swift.Bool, _ turn: UIKit.UIImage?, _ turnDistMeters: Swift.Int) -> Swift.Void
 public typealias VoiceCallback = (_ wav: Foundation.Data, _ trigger: Swift.Int, _ priority: Swift.Int) -> Swift.Void
 public typealias ResultCallback = (_ success: Swift.Bool, _ errorCode: Swift.Int, _ message: Swift.String) -> Swift.Void
 public typealias RerouteCallback = (_ lat: Swift.Double, _ lng: Swift.Double) -> Swift.Void
@@ -108,6 +115,9 @@ public enum VoiceAlertType : Swift.Int, Swift.CaseIterable {
   case buildupAreaStart
   case buildupAreaEnd
   case restStation
+  case noStopping
+  case roadClosed
+  case vehicleRestricted
   public var triggerValue: Swift.Int {
     get
   }

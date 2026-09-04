@@ -38,6 +38,25 @@ typedef void (^AVBitmapBlock)(NSData *_Nullable currentBmp,
                               NSData *_Nullable cameraBmp, int cameraDistMeters,
                               NSData *_Nullable tollBmp, int tollDistMeters);
 
+/// Per-tick restriction signs, delivered alongside AVBitmapBlock.
+///
+/// Separate from the speed / camera / toll slots because these can all be true
+/// at once: one stretch of road may sit inside a built-up area, be closed to
+/// your vehicle AND carry a no-stopping order. Each gets its own slot and none
+/// can displace another.
+///
+/// A distance of 0 means "you are on it now", not "unknown"; a nil bitmap is
+/// what says the slot is empty. That matters most for the built-up area, which
+/// is a place you are inside rather than a point you approach: while inside,
+/// buaBmp is the entry plate at distance 0 and stays up for the whole stretch.
+/// `turnBmp` is the exception — a real point feature, so its distance is always
+/// the distance to it.
+typedef void (^AVRestrictionBlock)(NSData *_Nullable stopBmp, int stopDistMeters,
+                                   NSData *_Nullable closedBmp, int closedDistMeters,
+                                   NSData *_Nullable vehicleBmp, int vehicleDistMeters,
+                                   NSData *_Nullable buaBmp, int buaDistMeters, BOOL inBua,
+                                   NSData *_Nullable turnBmp, int turnDistMeters);
+
 /// One voice clip (WAV PCM16 mono 22050Hz) with its native VoiceTrigger value
 /// and VoicePriority (0 = current/"hiện tại", 1 = normal, 2 = speeding).
 typedef void (^AVVoiceBlock)(NSData *wav, int trigger, int priority);
@@ -127,6 +146,8 @@ __attribute__((visibility("default")))
 
 // ---- Callbacks ----
 - (void)setBitmapBlock:(nullable AVBitmapBlock)block;
+/// Optional. Leave unset and the bridge skips building those bitmaps entirely.
+- (void)setRestrictionBlock:(nullable AVRestrictionBlock)block;
 - (void)setVoiceBlock:(nullable AVVoiceBlock)block;
 - (void)setDebugBlock:(nullable AVDebugBlock)block;
 - (void)setResultBlock:(nullable AVResultBlock)block;
