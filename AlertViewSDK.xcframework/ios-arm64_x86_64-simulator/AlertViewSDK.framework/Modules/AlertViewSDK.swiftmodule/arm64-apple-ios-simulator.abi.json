@@ -421,6 +421,33 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "setVoiceMode",
+            "printedName": "setVoiceMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC12setVoiceModeyys5Int32VF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC12setVoiceModeyys5Int32VF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "segmentCount",
             "printedName": "segmentCount",
@@ -1035,6 +1062,34 @@
           },
           {
             "kind": "Function",
+            "name": "setVoiceSpeed",
+            "printedName": "setVoiceSpeed(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB6BridgeC13setVoiceSpeedyySfF",
+            "mangledName": "$s12AlertViewSDK0aB6BridgeC13setVoiceSpeedyySfF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "audioPlayerDidFinishPlaying",
             "printedName": "audioPlayerDidFinishPlaying(_:successfully:)",
             "children": [
@@ -1132,38 +1187,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -1174,10 +1201,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -1188,10 +1229,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -1629,6 +1684,34 @@
           },
           {
             "kind": "Function",
+            "name": "setVoiceMode",
+            "printedName": "setVoiceMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VoiceMode",
+                "printedName": "AlertViewSDK.VoiceMode",
+                "usr": "s:12AlertViewSDK9VoiceModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC12setVoiceModeyyAA0fG0OF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC12setVoiceModeyyAA0fG0OF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setMutedAlertTypes",
             "printedName": "setMutedAlertTypes(_:)",
             "children": [
@@ -2006,6 +2089,34 @@
             "declKind": "Func",
             "usr": "s:12AlertViewSDK0aB7ManagerC16setVoiceCallbackyyy10Foundation4DataV_S2itcSgF",
             "mangledName": "$s12AlertViewSDK0aB7ManagerC16setVoiceCallbackyyy10Foundation4DataV_S2itcSgF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVoiceSpeed",
+            "printedName": "setVoiceSpeed(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0aB7ManagerC13setVoiceSpeedyySfF",
+            "mangledName": "$s12AlertViewSDK0aB7ManagerC13setVoiceSpeedyySfF",
             "moduleName": "AlertViewSDK",
             "declAttributes": [
               "Final",
@@ -3100,17 +3211,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3172,6 +3283,235 @@
             "mangledName": "$ss12CaseIterableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VoiceMode",
+        "printedName": "VoiceMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "full",
+            "printedName": "full",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceMode.Type) -> AlertViewSDK.VoiceMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceMode",
+                    "printedName": "AlertViewSDK.VoiceMode",
+                    "usr": "s:12AlertViewSDK9VoiceModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceMode",
+                        "printedName": "AlertViewSDK.VoiceMode",
+                        "usr": "s:12AlertViewSDK9VoiceModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK9VoiceModeO4fullyA2CmF",
+            "mangledName": "$s12AlertViewSDK9VoiceModeO4fullyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ding",
+            "printedName": "ding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.VoiceMode.Type) -> AlertViewSDK.VoiceMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceMode",
+                    "printedName": "AlertViewSDK.VoiceMode",
+                    "usr": "s:12AlertViewSDK9VoiceModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.VoiceMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceMode",
+                        "printedName": "AlertViewSDK.VoiceMode",
+                        "usr": "s:12AlertViewSDK9VoiceModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK9VoiceModeO4dingyA2CmF",
+            "mangledName": "$s12AlertViewSDK9VoiceModeO4dingyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AlertViewSDK.VoiceMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceMode",
+                    "printedName": "AlertViewSDK.VoiceMode",
+                    "usr": "s:12AlertViewSDK9VoiceModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AlertViewSDK9VoiceModeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12AlertViewSDK9VoiceModeO8rawValueACSgSi_tcfc",
+            "moduleName": "AlertViewSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlertViewSDK9VoiceModeO8rawValueSivp",
+            "mangledName": "$s12AlertViewSDK9VoiceModeO8rawValueSivp",
+            "moduleName": "AlertViewSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlertViewSDK9VoiceModeO8rawValueSivg",
+                "mangledName": "$s12AlertViewSDK9VoiceModeO8rawValueSivg",
+                "moduleName": "AlertViewSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12AlertViewSDK9VoiceModeO",
+        "mangledName": "$s12AlertViewSDK9VoiceModeO",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -3180,37 +3520,58 @@
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 11466,
+      "offset": 12022,
       "length": 4,
       "value": "6000"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 11505,
+      "offset": 12061,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 11587,
+      "offset": 12143,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "Array",
-      "offset": 11889,
+      "offset": 12445,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 11923,
+      "offset": 12479,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
+      "kind": "FloatLiteral",
+      "offset": 12609,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
+      "kind": "FloatLiteral",
+      "offset": 12659,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12804,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewManager.swift",
@@ -3344,6 +3705,20 @@
       "offset": 1652,
       "length": 2,
       "value": "21"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 918,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/VoiceMode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1015,
+      "length": 1,
+      "value": "1"
     }
   ]
 }

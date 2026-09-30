@@ -138,6 +138,9 @@ __attribute__((visibility("default")))
 /// Host voice-mute mask (bit i = VoiceTrigger value i). Persists across routes.
 - (void)setMutedVoiceTriggers:(uint64_t)mask;
 
+/// Host voice-mode preference (native VoiceMode value). Persists across routes.
+- (void)setVoiceMode:(int)mode;
+
 - (int)segmentCount;
 - (int)currentSegment;
 
