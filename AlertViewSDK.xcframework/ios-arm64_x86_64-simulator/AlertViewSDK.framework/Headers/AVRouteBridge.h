@@ -38,6 +38,25 @@ typedef void (^AVBitmapBlock)(NSData *_Nullable currentBmp,
                               NSData *_Nullable cameraBmp, int cameraDistMeters,
                               NSData *_Nullable tollBmp, int tollDistMeters);
 
+/// Per-tick restriction signs, delivered alongside AVBitmapBlock.
+///
+/// Separate from the speed / camera / toll slots because these can all be true
+/// at once: one stretch of road may sit inside a built-up area, be closed to
+/// your vehicle AND carry a no-stopping order. Each gets its own slot and none
+/// can displace another.
+///
+/// A distance of 0 means "you are on it now", not "unknown"; a nil bitmap is
+/// what says the slot is empty. That matters most for the built-up area, which
+/// is a place you are inside rather than a point you approach: while inside,
+/// buaBmp is the entry plate at distance 0 and stays up for the whole stretch.
+/// `turnBmp` is the exception — a real point feature, so its distance is always
+/// the distance to it.
+typedef void (^AVRestrictionBlock)(NSData *_Nullable stopBmp, int stopDistMeters,
+                                   NSData *_Nullable closedBmp, int closedDistMeters,
+                                   NSData *_Nullable vehicleBmp, int vehicleDistMeters,
+                                   NSData *_Nullable buaBmp, int buaDistMeters, BOOL inBua,
+                                   NSData *_Nullable turnBmp, int turnDistMeters);
+
 /// One voice clip (WAV PCM16 mono 22050Hz) with its native VoiceTrigger value
 /// and VoicePriority (0 = current/"hiện tại", 1 = normal, 2 = speeding).
 typedef void (^AVVoiceBlock)(NSData *wav, int trigger, int priority);
@@ -50,6 +69,11 @@ typedef void (^AVDebugBlock)(double rawLat, double rawLng,
 /// Per-segment fetch outcome. code: 0 ok, >0 server envelope code,
 /// <0 local SDK error (see message for detail).
 typedef void (^AVResultBlock)(BOOL success, int errorCode, NSString *message);
+
+/// Route lost and could not be re-acquired from the current GPS (a genuine
+/// detour). The host should compute a fresh route from (lat,lng) and set it
+/// again. Fired at most once per drift episode.
+typedef void (^AVRerouteBlock)(double lat, double lng);
 
 // Exported explicitly: Release hides symbols by default; this class is the
 // public ObjC surface and must stay linkable from host apps.
@@ -114,14 +138,23 @@ __attribute__((visibility("default")))
 /// Host voice-mute mask (bit i = VoiceTrigger value i). Persists across routes.
 - (void)setMutedVoiceTriggers:(uint64_t)mask;
 
+/// Host voice-mode preference (native VoiceMode value). Persists across routes.
+- (void)setVoiceMode:(int)mode;
+
 - (int)segmentCount;
 - (int)currentSegment;
 
+- (int)exportLogs:(NSString *)path;
+- (BOOL)canExportLogs;
+
 // ---- Callbacks ----
 - (void)setBitmapBlock:(nullable AVBitmapBlock)block;
+/// Optional. Leave unset and the bridge skips building those bitmaps entirely.
+- (void)setRestrictionBlock:(nullable AVRestrictionBlock)block;
 - (void)setVoiceBlock:(nullable AVVoiceBlock)block;
 - (void)setDebugBlock:(nullable AVDebugBlock)block;
 - (void)setResultBlock:(nullable AVResultBlock)block;
+- (void)setRerouteBlock:(nullable AVRerouteBlock)block;
 
 @end
 
