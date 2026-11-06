@@ -6,6 +6,560 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertVehicleType",
+        "printedName": "AlertVehicleType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "car",
+            "printedName": "car",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.AlertVehicleType.Type) -> AlertViewSDK.AlertVehicleType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertVehicleType",
+                    "printedName": "AlertViewSDK.AlertVehicleType",
+                    "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.AlertVehicleType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertVehicleType",
+                        "printedName": "AlertViewSDK.AlertVehicleType",
+                        "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO3caryA2CmF",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO3caryA2CmF",
+            "moduleName": "AlertViewSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "taxi",
+            "printedName": "taxi",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.AlertVehicleType.Type) -> AlertViewSDK.AlertVehicleType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertVehicleType",
+                    "printedName": "AlertViewSDK.AlertVehicleType",
+                    "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.AlertVehicleType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertVehicleType",
+                        "printedName": "AlertViewSDK.AlertVehicleType",
+                        "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO4taxiyA2CmF",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO4taxiyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bus",
+            "printedName": "bus",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.AlertVehicleType.Type) -> AlertViewSDK.AlertVehicleType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertVehicleType",
+                    "printedName": "AlertViewSDK.AlertVehicleType",
+                    "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.AlertVehicleType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertVehicleType",
+                        "printedName": "AlertViewSDK.AlertVehicleType",
+                        "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO3busyA2CmF",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO3busyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "coach",
+            "printedName": "coach",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.AlertVehicleType.Type) -> AlertViewSDK.AlertVehicleType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertVehicleType",
+                    "printedName": "AlertViewSDK.AlertVehicleType",
+                    "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.AlertVehicleType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertVehicleType",
+                        "printedName": "AlertViewSDK.AlertVehicleType",
+                        "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO5coachyA2CmF",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO5coachyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "truck",
+            "printedName": "truck",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.AlertVehicleType.Type) -> AlertViewSDK.AlertVehicleType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertVehicleType",
+                    "printedName": "AlertViewSDK.AlertVehicleType",
+                    "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.AlertVehicleType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertVehicleType",
+                        "printedName": "AlertViewSDK.AlertVehicleType",
+                        "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO5truckyA2CmF",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO5truckyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "motorcycle",
+            "printedName": "motorcycle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.AlertVehicleType.Type) -> AlertViewSDK.AlertVehicleType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertVehicleType",
+                    "printedName": "AlertViewSDK.AlertVehicleType",
+                    "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.AlertVehicleType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertVehicleType",
+                        "printedName": "AlertViewSDK.AlertVehicleType",
+                        "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO10motorcycleyA2CmF",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO10motorcycleyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bike",
+            "printedName": "bike",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlertViewSDK.AlertVehicleType.Type) -> AlertViewSDK.AlertVehicleType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertVehicleType",
+                    "printedName": "AlertViewSDK.AlertVehicleType",
+                    "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlertViewSDK.AlertVehicleType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertVehicleType",
+                        "printedName": "AlertViewSDK.AlertVehicleType",
+                        "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO4bikeyA2CmF",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO4bikeyA2CmF",
+            "moduleName": "AlertViewSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fromValue",
+            "printedName": "fromValue(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AlertViewSDK.AlertVehicleType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertVehicleType",
+                    "printedName": "AlertViewSDK.AlertVehicleType",
+                    "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO9fromValueyACSgSiFZ",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO9fromValueyACSgSiFZ",
+            "moduleName": "AlertViewSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AlertViewSDK.AlertVehicleType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertVehicleType",
+                    "printedName": "AlertViewSDK.AlertVehicleType",
+                    "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "AlertViewSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO8rawValueSivp",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO8rawValueSivp",
+            "moduleName": "AlertViewSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlertViewSDK0A11VehicleTypeO8rawValueSivg",
+                "mangledName": "$s12AlertViewSDK0A11VehicleTypeO8rawValueSivg",
+                "moduleName": "AlertViewSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AlertViewSDK.AlertVehicleType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertVehicleType",
+                    "printedName": "AlertViewSDK.AlertVehicleType",
+                    "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlertViewSDK0A11VehicleTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s12AlertViewSDK0A11VehicleTypeO8allCasesSayACGvpZ",
+            "moduleName": "AlertViewSDK",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AlertViewSDK.AlertVehicleType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertVehicleType",
+                        "printedName": "AlertViewSDK.AlertVehicleType",
+                        "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlertViewSDK0A11VehicleTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s12AlertViewSDK0A11VehicleTypeO8allCasesSayACGvgZ",
+                "moduleName": "AlertViewSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12AlertViewSDK0A11VehicleTypeO",
+        "mangledName": "$s12AlertViewSDK0A11VehicleTypeO",
+        "moduleName": "AlertViewSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AlertViewSDK.AlertVehicleType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertVehicleType",
+                        "printedName": "AlertViewSDK.AlertVehicleType",
+                        "usr": "s:12AlertViewSDK0A11VehicleTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -3517,6 +4071,55 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertVehicleType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 967,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertVehicleType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1007,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertVehicleType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1043,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertVehicleType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1081,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertVehicleType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1141,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertVehicleType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1207,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertVehicleType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1238,
+      "length": 1,
+      "value": "8"
+    },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",

@@ -10,6 +10,25 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum AlertVehicleType : Swift.Int, Swift.CaseIterable {
+  case car
+  case taxi
+  case bus
+  case coach
+  case truck
+  case motorcycle
+  case bike
+  public static func fromValue(_ value: Swift.Int) -> AlertViewSDK.AlertVehicleType?
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [AlertViewSDK.AlertVehicleType]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [AlertViewSDK.AlertVehicleType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class AlertViewBridge : ObjectiveC.NSObject {
   public static let shared: AlertViewSDK.AlertViewBridge
   final public func configure(baseUrl: Swift.String, apiKeyId: Swift.String, apiKey: Swift.String, bundleId: Swift.String, vehicleId: Swift.String, vehicleType: Swift.Int, seats: Swift.Int, weights: Swift.Double, maxSnapMeters: Swift.Double)
@@ -115,6 +134,9 @@ public enum VoiceMode : Swift.Int {
     get
   }
 }
+extension AlertViewSDK.AlertVehicleType : Swift.Equatable {}
+extension AlertViewSDK.AlertVehicleType : Swift.Hashable {}
+extension AlertViewSDK.AlertVehicleType : Swift.RawRepresentable {}
 extension AlertViewSDK.VoiceAlertType : Swift.Equatable {}
 extension AlertViewSDK.VoiceAlertType : Swift.Hashable {}
 extension AlertViewSDK.VoiceAlertType : Swift.RawRepresentable {}
