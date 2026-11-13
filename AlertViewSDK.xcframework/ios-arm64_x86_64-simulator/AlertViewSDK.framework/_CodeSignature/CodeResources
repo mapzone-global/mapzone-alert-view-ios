@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AVRouteBridge.h</key>
 		<data>
-		KX53sAQnnq4ZYgxFHsHPQB9LzVw=
+		AwZGzIVlBL41P6c1B79BjDqMwEc=
 		</data>
 		<key>Headers/AlertViewSDK.h</key>
 		<data>
@@ -18,47 +18,51 @@
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fmLUyBWGfcjlmhLzfEBGD7ORDVc=
+		0NofLp2EZi4xowJH/fZInh585YU=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		viqo08IrOCV/MztkTqQEitHW2lU=
+		r8eguQ1RTiN1rD/9ZlgGGRZ5fuQ=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VmUJ+R8JSYSq3iI5VjXGQB7Mjak=
+		7lC4aGjrsUQcmTIo2gDYoBxN/PQ=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		viqo08IrOCV/MztkTqQEitHW2lU=
+		r8eguQ1RTiN1rD/9ZlgGGRZ5fuQ=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		y1mEcWElSXR/IuagQIYiaRngqPs=
+		jqxj3Zaa5ZBj71Yx0xl28g2S+68=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fmLUyBWGfcjlmhLzfEBGD7ORDVc=
+		0NofLp2EZi4xowJH/fZInh585YU=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gL3MVXGsoP2UAfPXE3aei7LxU9k=
+		rsb/hrPZmYMkcfz6fA7QtYkfLTQ=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3ie6NgnUVH2CUegqFBTfN+Ngsu8=
+		Sj/2PXKH3WExzUjIYiMzwEhxvKQ=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gL3MVXGsoP2UAfPXE3aei7LxU9k=
+		rsb/hrPZmYMkcfz6fA7QtYkfLTQ=
 		</data>
 		<key>Modules/AlertViewSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QVzitZgjm7w/e3l+Gfi6JGLP9fs=
+		nFJx5oHx6neFAykQmq9ICrNUhEk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		QSdyrQWZ3l9qWXaZDKDNazL+tXY=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		Q7SvnPDzZMEaOIpsLGn6f6rYomY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LPPVxF50l6hx/6e1q7PHYA81kPay3czM4YaxV7gLphU=
+			WdMYwOKx4pn7pQpOtVa/HE0u4ey3AME8bGwxNUmq79A=
 			</data>
 		</dict>
 		<key>Headers/AlertViewSDK.h</key>
@@ -81,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l063AV14acObjH3319qpcGBNvaDFouVrDa8XaovQpz4=
+			oAhn0RRGQLFPcBbi68BSF/snco2db+UpoJ6jQTQBh1k=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b5IEHOaVDaad0LUMNacXopg9dVDcpRPdsPyboRr2rLY=
+			GOcATb4crZg3g1sIL3AxXRDRnXCeO9/qEZAxpW+1yFA=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			phafBVXxl0qvexWjvpZrd+3CVD21kToT3t3eu9QAiTA=
+			t1JAf+BRKg4C1DteXIgVEl75LfiZA1Ikp4zENisKbKg=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b5IEHOaVDaad0LUMNacXopg9dVDcpRPdsPyboRr2rLY=
+			GOcATb4crZg3g1sIL3AxXRDRnXCeO9/qEZAxpW+1yFA=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			elQEi+StQmWNdqWQtc03Cf93+EWDED0iuHy69Ujtxlo=
+			CPK40y3sNfkAZgUyAF9ypE7HeWUBknXMAQsZ00yugig=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l063AV14acObjH3319qpcGBNvaDFouVrDa8XaovQpz4=
+			oAhn0RRGQLFPcBbi68BSF/snco2db+UpoJ6jQTQBh1k=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DfwE94noLAdpM17qbihTUiW3hD5SMEgKcyzRUsUFOIo=
+			dNX2AagNCguLOjRYXTETGglRoRdu+IpEsq5T2Dqw7as=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BDaltaegRxf3YqMT+jIOR8mvpiHh7LStKniwzS/s+h0=
+			hmlBT/a8SY9b8qgOE9uEwQOnoKTaggFFQ1366nIhBjg=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DfwE94noLAdpM17qbihTUiW3hD5SMEgKcyzRUsUFOIo=
+			dNX2AagNCguLOjRYXTETGglRoRdu+IpEsq5T2Dqw7as=
 			</data>
 		</dict>
 		<key>Modules/AlertViewSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			clFWVFnVteRg8C+FjehySqYBXYaRA8KiYKhNjHnxB+E=
+			BU8eYbVJS6k4USVZAyv09eDek321ZJpBVkQG2KJD2ZE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -152,6 +156,13 @@
 			<key>hash2</key>
 			<data>
 			zSQiaZz9eN9yuQPGYvVS90q98u1CBM61WxdFyLWSyDQ=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g2N01sn+7VjY6uNPK3Zpko2urcqUlCDAOirtnDVlL34=
 			</data>
 		</dict>
 	</dict>

@@ -83,16 +83,70 @@ __attribute__((visibility("default")))
 + (instancetype)sharedInstance;
 
 // ---- Configuration ----
+/// Configure endpoint + credentials + account + vehicle params + host metadata
+/// (a JSON object; nil/empty = none), all already checked with
+/// +validateConfiguration…. Calling it again replaces everything, including the
+/// metadata, and lifts a block that lasts until configure. Also reads the
+/// per-install identity.
 - (void)configureBaseUrl:(NSString *)baseUrl
                apiKeyId:(NSString *)apiKeyId
                   apiKey:(NSString *)apiKey
                 bundleId:(NSString *)bundleId
-               vehicleId:(NSString *)vehicleId
+                identity:(NSString *)identity
+                metadata:(nullable NSString *)metadata
              vehicleType:(int)vehicleType
                    seats:(int)seats
                  weights:(double)weights
            maxSnapMeters:(double)maxSnapMeters
-    NS_SWIFT_NAME(configure(baseUrl:apiKeyId:apiKey:bundleId:vehicleId:vehicleType:seats:weights:maxSnapMeters:));
+    NS_SWIFT_NAME(configure(baseUrl:apiKeyId:apiKey:bundleId:identity:metadata:vehicleType:seats:weights:maxSnapMeters:));
+
+/// Open the vehicle session (S1) when one is owed. Engine queue only; blocks on
+/// the network.
+- (void)runLogin NS_SWIFT_NAME(runLogin());
+
+/// Close the vehicle session (S2); returns the outcome code. Engine queue only;
+/// blocks on the network.
+- (int)logout NS_SWIFT_NAME(logout());
+
+/// Host-facing sentence for an outcome code. Pure — safe on any thread.
++ (NSString *)messageForCode:(int)code NS_SWIFT_NAME(message(forCode:));
+
+/// Everything configure checks before applying anything. Pure — touches no
+/// engine state, safe on any thread. Returns nil when valid, otherwise a
+/// human-readable reason.
++ (nullable NSString *)validateConfigurationBaseUrl:(NSString *)baseUrl
+                                           apiKeyId:(NSString *)apiKeyId
+                                             apiKey:(NSString *)apiKey
+                                           bundleId:(NSString *)bundleId
+                                           identity:(NSString *)identity
+                                        vehicleType:(int)vehicleType
+                                              seats:(int)seats
+                                            weights:(double)weights
+                                      maxSnapMeters:(double)maxSnapMeters
+                                           metadata:(nullable NSString *)metadata
+    NS_SWIFT_NAME(validateConfiguration(baseUrl:apiKeyId:apiKey:bundleId:identity:vehicleType:seats:weights:maxSnapMeters:metadata:));
+
+/// Nil when `url` is empty or https, otherwise why not. Pure.
++ (nullable NSString *)validateSegmentUrl:(NSString *)url NS_SWIFT_NAME(validateSegmentUrl(_:));
+
+/// Nil when these headers can be applied, otherwise why not. Pure.
++ (nullable NSString *)validateExtraHeaders:(NSDictionary<NSString *, NSString *> *)headers
+    NS_SWIFT_NAME(validateExtraHeaders(_:));
+
+/// Nil when these fields can be applied, otherwise why not. Pure.
++ (nullable NSString *)validateExtraBodyFields:(NSDictionary<NSString *, NSString *> *)fields
+    NS_SWIFT_NAME(validateExtraBodyFields(_:));
+
+/// Re-read the per-install identity; returns the current request id.
+/// Engine queue only (like every instance method here) — hosts use
+/// AlertViewManager.refId instead.
+- (NSString *)refreshIdentity NS_SWIFT_NAME(refreshIdentity());
+
+/// Current per-install request id. Engine queue only.
+- (NSString *)refId NS_SWIFT_NAME(refId());
+
+/// YES while requests still carry the placeholder id. Engine queue only.
+- (BOOL)identityIsFallback NS_SWIFT_NAME(identityIsFallback());
 
 /// Override the segment-fetch URL only. Optional; call after configure.
 /// Empty = derive from the base URL; non-empty = use EXACTLY this URL
@@ -109,8 +163,8 @@ __attribute__((visibility("default")))
     NS_SWIFT_NAME(setExtraHeaders(_:));
 
 /// Add EXTRA fields to every segment-fetch request body as JSON string values.
-/// The existing fields (vehicleId, vehicleType, seats, weights, maxSnapMeters,
-/// pointsPolyline) cannot be overridden; reserved/empty keys or newline values
+/// The existing fields (refId, identity, deviceMeta, metadata, vehicleType, seats,
+/// weights, maxSnapMeters, pointsPolyline) cannot be overridden; reserved/empty keys or newline values
 /// are rejected, keeping the previous extras. Pass an empty dict to clear.
 /// Returns nil on success, otherwise a human-readable error message.
 - (nullable NSString *)setExtraBodyFields:(NSDictionary<NSString *, NSString *> *)fields

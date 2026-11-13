@@ -17,7 +17,6 @@ public enum AlertVehicleType : Swift.Int, Swift.CaseIterable {
   case coach
   case truck
   case motorcycle
-  case bike
   public static func fromValue(_ value: Swift.Int) -> AlertViewSDK.AlertVehicleType?
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [AlertViewSDK.AlertVehicleType]
@@ -31,7 +30,7 @@ public enum AlertVehicleType : Swift.Int, Swift.CaseIterable {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class AlertViewBridge : ObjectiveC.NSObject {
   public static let shared: AlertViewSDK.AlertViewBridge
-  final public func configure(baseUrl: Swift.String, apiKeyId: Swift.String, apiKey: Swift.String, bundleId: Swift.String, vehicleId: Swift.String, vehicleType: Swift.Int, seats: Swift.Int, weights: Swift.Double, maxSnapMeters: Swift.Double)
+  final public func configure(baseUrl: Swift.String, apiKeyId: Swift.String, apiKey: Swift.String, bundleId: Swift.String, identity: Swift.String, metadata: Swift.String?, vehicleType: Swift.Int, seats: Swift.Int, weights: Swift.Double, maxSnapMeters: Swift.Double)
   final public func setSegmentUrl(_ url: Swift.String)
   @discardableResult
   final public func setExtraHeaders(_ headers: [Swift.String : Swift.String]) -> Swift.String?
@@ -63,10 +62,28 @@ extension AlertViewSDK.AlertViewBridge : AVFAudio.AVAudioPlayerDelegate {
   @objc final public func audioPlayerDidFinishPlaying(_ player: AVFAudio.AVAudioPlayer, successfully flag: Swift.Bool)
   @objc final public func audioPlayerDecodeErrorDidOccur(_ player: AVFAudio.AVAudioPlayer, error: (any Swift.Error)?)
 }
+public enum AlertViewError {
+  public static let networkFailed: Swift.Int
+  public static let bridgeFailed: Swift.Int
+  public static let notLoggedIn: Swift.Int
+  public static let noRouteData: Swift.Int
+  public static let sessionMoved: Swift.Int
+  public static let locked: Swift.Int
+  public static let switchTooSoon: Swift.Int
+  public static let trialIdentityNotAllowed: Swift.Int
+  public static let newDeviceLimit: Swift.Int
+  public static let tooManyRequests: Swift.Int
+  public static let requestQuotaExceeded: Swift.Int
+}
 final public class AlertViewManager {
   public init()
-  final public func configure(baseUrl: Swift.String, apiKeyId: Swift.String, apiKey: Swift.String, vehicleId: Swift.String, vehicleType: Swift.Int, seats: Swift.Int, weights: Swift.Double, maxSnapMeters: Swift.Double)
-  final public func setSegmentUrl(_ url: Swift.String)
+  final public func configure(baseUrl: Swift.String, apiKeyId: Swift.String, apiKey: Swift.String, identity: Swift.String, vehicleType: AlertViewSDK.AlertVehicleType, seats: Swift.Int, weights: Swift.Double, maxSnapMeters: Swift.Double, metadata: Swift.String? = nil) -> Swift.String?
+  final public func logout(completion: ((Swift.Bool, Swift.Int, Swift.String) -> Swift.Void)?)
+  final public var refId: Swift.String? {
+    get
+  }
+  @discardableResult
+  final public func setSegmentUrl(_ url: Swift.String) -> Swift.String?
   @discardableResult
   final public func setExtraHeaders(_ headers: [Swift.String : Swift.String]) -> Swift.String?
   @discardableResult
