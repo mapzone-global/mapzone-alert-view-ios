@@ -1987,6 +1987,54 @@
           },
           {
             "kind": "Var",
+            "name": "deviceNotReady",
+            "printedName": "deviceNotReady",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlertViewSDK0aB5ErrorO14deviceNotReadySivpZ",
+            "mangledName": "$s12AlertViewSDK0aB5ErrorO14deviceNotReadySivpZ",
+            "moduleName": "AlertViewSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlertViewSDK0aB5ErrorO14deviceNotReadySivgZ",
+                "mangledName": "$s12AlertViewSDK0aB5ErrorO14deviceNotReadySivgZ",
+                "moduleName": "AlertViewSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "sessionMoved",
             "printedName": "sessionMoved",
             "children": [
@@ -2543,67 +2591,6 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "refId",
-            "printedName": "refId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12AlertViewSDK0aB7ManagerC5refIdSSSgvp",
-            "mangledName": "$s12AlertViewSDK0aB7ManagerC5refIdSSSgvp",
-            "moduleName": "AlertViewSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12AlertViewSDK0aB7ManagerC5refIdSSSgvg",
-                "mangledName": "$s12AlertViewSDK0aB7ManagerC5refIdSSSgvg",
-                "moduleName": "AlertViewSDK",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
           },
           {
             "kind": "Function",
@@ -4821,133 +4808,140 @@
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 14648,
+      "offset": 14490,
       "length": 4,
       "value": "6000"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 14687,
+      "offset": 14529,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 14769,
+      "offset": 14611,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "Array",
-      "offset": 15071,
+      "offset": 14913,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 15105,
+      "offset": 14947,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "FloatLiteral",
-      "offset": 15235,
+      "offset": 15077,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "FloatLiteral",
-      "offset": 15285,
+      "offset": 15127,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 15430,
+      "offset": 15272,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1268,
+      "offset": 1352,
       "length": 2,
       "value": "-4"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1371,
+      "offset": 1455,
       "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1483,
+      "offset": 1567,
       "length": 2,
       "value": "-6"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1584,
+      "offset": 1668,
       "length": 2,
       "value": "-7"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1710,
+      "offset": 2019,
+      "length": 2,
+      "value": "-8"
+    },
+    {
+      "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2145,
       "length": 4,
       "value": "2006"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1815,
+      "offset": 2250,
       "length": 4,
       "value": "2007"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1950,
+      "offset": 2385,
       "length": 4,
       "value": "2008"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2082,
+      "offset": 2517,
       "length": 4,
       "value": "2010"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2180,
+      "offset": 2615,
       "length": 4,
       "value": "3012"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2296,
+      "offset": 2731,
       "length": 4,
       "value": "4000"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2397,
+      "offset": 2832,
       "length": 4,
       "value": "4001"
     },
@@ -4961,14 +4955,14 @@
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7096,
+      "offset": 7000,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/nguyentoan\/App\/map_sdk\/alert-view-sdk\/ios\/AlertViewSDK\/AlertViewSDK\/AlertViewManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7311,
+      "offset": 7163,
       "length": 5,
       "value": "false"
     },

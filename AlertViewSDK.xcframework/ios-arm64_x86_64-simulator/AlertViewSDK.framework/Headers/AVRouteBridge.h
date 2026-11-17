@@ -137,16 +137,12 @@ __attribute__((visibility("default")))
 + (nullable NSString *)validateExtraBodyFields:(NSDictionary<NSString *, NSString *> *)fields
     NS_SWIFT_NAME(validateExtraBodyFields(_:));
 
-/// Re-read the per-install identity; returns the current request id.
-/// Engine queue only (like every instance method here) — hosts use
-/// AlertViewManager.refId instead.
-- (NSString *)refreshIdentity NS_SWIFT_NAME(refreshIdentity());
+/// Read the device again; returns `isWarm`. Engine queue only (like every
+/// instance method here).
+- (BOOL)rewarm NS_SWIFT_NAME(rewarm());
 
-/// Current per-install request id. Engine queue only.
-- (NSString *)refId NS_SWIFT_NAME(refId());
-
-/// YES while requests still carry the placeholder id. Engine queue only.
-- (BOOL)identityIsFallback NS_SWIFT_NAME(identityIsFallback());
+/// NO while the device cannot be read yet (fetches report -8). Engine queue only.
+- (BOOL)isWarm NS_SWIFT_NAME(isWarm());
 
 /// Override the segment-fetch URL only. Optional; call after configure.
 /// Empty = derive from the base URL; non-empty = use EXACTLY this URL
